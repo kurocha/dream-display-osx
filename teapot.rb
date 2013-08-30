@@ -12,9 +12,9 @@ define_target "dream-display-osx" do |target|
 	
 	target.depends "Library/Dream"
 	
-	target.provides "Library/DreamDisplay" => "Library/DreamDisplayOSX"
+	target.provides "Library/Dream/Display" => "Library/Dream/DisplayOSX"
 	
-	target.provides "Library/DreamDisplayOSX" do
+	target.provides "Library/Dream/DisplayOSX" do
 		append linkflags "-lDreamDisplayOSX"
 	end
 end
