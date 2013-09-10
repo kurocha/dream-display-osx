@@ -14,13 +14,6 @@ namespace Dream
 {
 	namespace Display
 	{
-		void IApplication::start (Ptr<IApplicationDelegate> delegate)
-		{
-			Ref<Cocoa::Application> application = new Cocoa::Application(delegate);
-			
-			application->run();
-		}
-	
 		namespace Cocoa {
 			Application::Application(Ptr<IApplicationDelegate> applicationDelegate) : _application_delegate(applicationDelegate)
 			{
