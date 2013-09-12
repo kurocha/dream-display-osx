@@ -10,11 +10,12 @@ define_target "dream-display-osx" do |target|
 		build_directory(package.path, 'source', environment)
 	end
 	
-	target.depends "Library/Dream"
+	target.depends "Library/Dream/Display"
 	
-	target.provides "Library/Dream/Display" => "Library/Dream/DisplayOSX"
+	target.provides "Library/Dream/Display/Context" => "Library/Dream/Display/OSX"
+	target.provides "Library/Dream/Client/Display" => "Library/Dream/Display/OSX"
 	
-	target.provides "Library/Dream/DisplayOSX" do
+	target.provides "Library/Dream/Display/OSX" do
 		append linkflags "-lDreamDisplayOSX"
 	end
 end
