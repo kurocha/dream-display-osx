@@ -1,5 +1,5 @@
 //
-//  Client/Display/Cocoa/DApplicationDelegate.h
+//  Display/Cocoa/DApplicationDelegate.h
 //  This file is part of the "Dream" project, and is released under the MIT license.
 //
 //  Created by Samuel Williams on 15/09/11.

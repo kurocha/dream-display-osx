@@ -1,5 +1,5 @@
 //
-//  Client/Display/Cocoa/Renderer.h
+//  Display/Cocoa/Renderer.h
 //  This file is part of the "Dream" project, and is released under the MIT license.
 //
 //  Created by Samuel Williams on 20/09/11.

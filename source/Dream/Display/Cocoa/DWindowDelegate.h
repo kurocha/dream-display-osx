@@ -1,5 +1,5 @@
 //
-//  Client/Display/Cocoa/DWindowDelegate.h
+//  Display/Cocoa/DWindowDelegate.h
 //  This file is part of the "Dream" project, and is released under the MIT license.
 //
 //  Created by Samuel Williams on 1/03/11.

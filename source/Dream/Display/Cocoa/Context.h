@@ -1,5 +1,5 @@
 //
-//  Client/Display/Cocoa/Context.h
+//  Display/Cocoa/Context.h
 //  This file is part of the "Dream" project, and is released under the MIT license.
 //
 //  Created by Samuel Williams on 27/03/07.
