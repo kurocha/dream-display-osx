@@ -16,6 +16,13 @@ define_target "dream-display-osx" do |target|
 	target.provides "Library/Dream/Client/Display" => "Library/Dream/Display/OSX"
 	
 	target.provides "Library/Dream/Display/OSX" do
-		append linkflags "-lDreamDisplayOSX"
+		append linkflags [
+			"-lDreamDisplayOSX",
+			"-framework", "Foundation",
+			"-framework", "Cocoa",
+			"-framework", "AppKit",
+			"-framework", "CoreVideo",
+			"-framework", "CoreServices"
+		]
 	end
 end
